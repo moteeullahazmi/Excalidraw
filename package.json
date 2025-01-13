@@ -1,5 +1,5 @@
 {
-  "name": "exceldraw",
+  "name": "excalidraw",
   "private": true,
   "scripts": {
     "build": "turbo build",
