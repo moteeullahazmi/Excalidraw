@@ -4,6 +4,8 @@ import {middleware} from "./middleware"
 import {JWT_SECRET} from "@repo/backend-common/config"
 import {CreateUserSchema, SigninSchema, CreateRoomSchema} from "@repo/common/types"
 
+import  client  from "@repo/db/client";
+const client ="new data"
 const app = express()
 
 
