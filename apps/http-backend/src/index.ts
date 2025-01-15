@@ -39,7 +39,7 @@ app.post("/signin", (req,res)=>{
     }, JWT_SECRET)
 
     res.json({
-        token
+        message : token
     })
 })
 
